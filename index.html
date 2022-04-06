@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="news-form">
+        <p>Titular: <input type="text" id="titular" placeholder="Titulo"></p>
+        <p>Resumen: <input type="text" id="resumen" placeholder="Resumen"></p>
+        <!-- <p>Fotos: <input class="input" id="fotos" name="fotos"></p> -->
+        <p>Descripcion: <input type="text" id="descripcion" placeholder="Descripcion"></p>
+        <p>Palabras Clave: <input type="text" id="palabrasclave" placeholder="Palabras clave"></p>
+        <p>Fuentes: <input type="text" id="fuente" name="fuente" placeholder="Fuentes"></p>
+
+        <p>Seleccionar Imagenes: <input type="file" id="file" multiple /></p>
+        <p id="uploading"></p>
+        <progress value="0" max="100" id="progress"></progress><br><br>
+
+        <button id="btnPublicar">Publicar</button><br><br>
+
+
+    </form>
+
+    <script type="module" src="./js/news.js"></script>
+</body>
+
+</html>
